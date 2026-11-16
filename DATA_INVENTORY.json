@@ -1,0 +1,681 @@
+{
+  "scope": "Selected three-core raw run only; not a complete inventory of all experiments",
+  "model_run_relative_path": "analysis/training_runs/20261110T043429_532355Z_raw_delta",
+  "source_url": "https://zenodo.org/records/10211443",
+  "metrics_conversion": {
+    "source": "analysis/training_runs/20261110T043429_532355Z_raw_delta/metrics.csv",
+    "source_sha256": "0f670913e0f59e361424372923f1c63a28478fdbe98254835f0bc4c676c73d60",
+    "bundle_target": "model/metrics.json"
+  },
+  "distribution": "NOT bundled; obtain independently or transfer only with required permission",
+  "csv_source_files": [
+    {
+      "relative_path": "floodnet-flood-sensor-apr-2021.csv",
+      "bytes": 16032196,
+      "mtime_ns": 1794278097039611600,
+      "integrity": "size/mtime fingerprint only; full CSV SHA256 not computed",
+      "included_in_bundle": false
+    },
+    {
+      "relative_path": "floodnet-flood-sensor-apr-2022.csv",
+      "bytes": 98372021,
+      "mtime_ns": 1794278104529423500,
+      "integrity": "size/mtime fingerprint only; full CSV SHA256 not computed",
+      "included_in_bundle": false
+    },
+    {
+      "relative_path": "floodnet-flood-sensor-apr-2023.csv",
+      "bytes": 292891443,
+      "mtime_ns": 1794278114654787200,
+      "integrity": "size/mtime fingerprint only; full CSV SHA256 not computed",
+      "included_in_bundle": false
+    },
+    {
+      "relative_path": "floodnet-flood-sensor-aug-2021.csv",
+      "bytes": 26219443,
+      "mtime_ns": 1794278108349638200,
+      "integrity": "size/mtime fingerprint only; full CSV SHA256 not computed",
+      "included_in_bundle": false
+    },
+    {
+      "relative_path": "floodnet-flood-sensor-aug-2022.csv",
+      "bytes": 128522440,
+      "mtime_ns": 1794278110249985400,
+      "integrity": "size/mtime fingerprint only; full CSV SHA256 not computed",
+      "included_in_bundle": false
+    },
+    {
+      "relative_path": "floodnet-flood-sensor-aug-2023.csv",
+      "bytes": 438293340,
+      "mtime_ns": 1794278150174288600,
+      "integrity": "size/mtime fingerprint only; full CSV SHA256 not computed",
+      "included_in_bundle": false
+    },
+    {
+      "relative_path": "floodnet-flood-sensor-dec-2020.csv",
+      "bytes": 2745509,
+      "mtime_ns": 1794278113053153000,
+      "integrity": "size/mtime fingerprint only; full CSV SHA256 not computed",
+      "included_in_bundle": false
+    },
+    {
+      "relative_path": "floodnet-flood-sensor-dec-2021.csv",
+      "bytes": 63105393,
+      "mtime_ns": 1794278119667742300,
+      "integrity": "size/mtime fingerprint only; full CSV SHA256 not computed",
+      "included_in_bundle": false
+    },
+    {
+      "relative_path": "floodnet-flood-sensor-dec-2022.csv",
+      "bytes": 186255931,
+      "mtime_ns": 1794278126820299200,
+      "integrity": "size/mtime fingerprint only; full CSV SHA256 not computed",
+      "included_in_bundle": false
+    },
+    {
+      "relative_path": "floodnet-flood-sensor-feb-2021.csv",
+      "bytes": 2461411,
+      "mtime_ns": 1794278124647808000,
+      "integrity": "size/mtime fingerprint only; full CSV SHA256 not computed",
+      "included_in_bundle": false
+    },
+    {
+      "relative_path": "floodnet-flood-sensor-feb-2022.csv",
+      "bytes": 82581486,
+      "mtime_ns": 1794278131008979200,
+      "integrity": "size/mtime fingerprint only; full CSV SHA256 not computed",
+      "included_in_bundle": false
+    },
+    {
+      "relative_path": "floodnet-flood-sensor-feb-2023.csv",
+      "bytes": 124808494,
+      "mtime_ns": 1794278135175991700,
+      "integrity": "size/mtime fingerprint only; full CSV SHA256 not computed",
+      "included_in_bundle": false
+    },
+    {
+      "relative_path": "floodnet-flood-sensor-jan-2021.csv",
+      "bytes": 4253400,
+      "mtime_ns": 1794278134135792200,
+      "integrity": "size/mtime fingerprint only; full CSV SHA256 not computed",
+      "included_in_bundle": false
+    },
+    {
+      "relative_path": "floodnet-flood-sensor-jan-2022.csv",
+      "bytes": 64218804,
+      "mtime_ns": 1794278137743181600,
+      "integrity": "size/mtime fingerprint only; full CSV SHA256 not computed",
+      "included_in_bundle": false
+    },
+    {
+      "relative_path": "floodnet-flood-sensor-jan-2023.csv",
+      "bytes": 191620585,
+      "mtime_ns": 1794278144844428200,
+      "integrity": "size/mtime fingerprint only; full CSV SHA256 not computed",
+      "included_in_bundle": false
+    },
+    {
+      "relative_path": "floodnet-flood-sensor-jul-2021.csv",
+      "bytes": 15502231,
+      "mtime_ns": 1794278141762293500,
+      "integrity": "size/mtime fingerprint only; full CSV SHA256 not computed",
+      "included_in_bundle": false
+    },
+    {
+      "relative_path": "floodnet-flood-sensor-jul-2022.csv",
+      "bytes": 100715452,
+      "mtime_ns": 1794278147011220400,
+      "integrity": "size/mtime fingerprint only; full CSV SHA256 not computed",
+      "included_in_bundle": false
+    },
+    {
+      "relative_path": "floodnet-flood-sensor-jul-2023.csv",
+      "bytes": 343606156,
+      "mtime_ns": 1794278177874121000,
+      "integrity": "size/mtime fingerprint only; full CSV SHA256 not computed",
+      "included_in_bundle": false
+    },
+    {
+      "relative_path": "floodnet-flood-sensor-jun-2021.csv",
+      "bytes": 7057794,
+      "mtime_ns": 1794278167131446400,
+      "integrity": "size/mtime fingerprint only; full CSV SHA256 not computed",
+      "included_in_bundle": false
+    },
+    {
+      "relative_path": "floodnet-flood-sensor-jun-2022.csv",
+      "bytes": 96778017,
+      "mtime_ns": 1794278171012218100,
+      "integrity": "size/mtime fingerprint only; full CSV SHA256 not computed",
+      "included_in_bundle": false
+    },
+    {
+      "relative_path": "floodnet-flood-sensor-jun-2023.csv",
+      "bytes": 372523247,
+      "mtime_ns": 1794278186153763800,
+      "integrity": "size/mtime fingerprint only; full CSV SHA256 not computed",
+      "included_in_bundle": false
+    },
+    {
+      "relative_path": "floodnet-flood-sensor-mar-2021.csv",
+      "bytes": 24111061,
+      "mtime_ns": 1794278172888629600,
+      "integrity": "size/mtime fingerprint only; full CSV SHA256 not computed",
+      "included_in_bundle": false
+    },
+    {
+      "relative_path": "floodnet-flood-sensor-mar-2022.csv",
+      "bytes": 120233201,
+      "mtime_ns": 1794278178071693400,
+      "integrity": "size/mtime fingerprint only; full CSV SHA256 not computed",
+      "included_in_bundle": false
+    },
+    {
+      "relative_path": "floodnet-flood-sensor-mar-2023.csv",
+      "bytes": 212861460,
+      "mtime_ns": 1794278220710424000,
+      "integrity": "size/mtime fingerprint only; full CSV SHA256 not computed",
+      "included_in_bundle": false
+    },
+    {
+      "relative_path": "floodnet-flood-sensor-may-2021.csv",
+      "bytes": 7919697,
+      "mtime_ns": 1794278179645395300,
+      "integrity": "size/mtime fingerprint only; full CSV SHA256 not computed",
+      "included_in_bundle": false
+    },
+    {
+      "relative_path": "floodnet-flood-sensor-may-2022.csv",
+      "bytes": 76544659,
+      "mtime_ns": 1794278185083665200,
+      "integrity": "size/mtime fingerprint only; full CSV SHA256 not computed",
+      "included_in_bundle": false
+    },
+    {
+      "relative_path": "floodnet-flood-sensor-may-2023.csv",
+      "bytes": 292781476,
+      "mtime_ns": 1794278196718509000,
+      "integrity": "size/mtime fingerprint only; full CSV SHA256 not computed",
+      "included_in_bundle": false
+    },
+    {
+      "relative_path": "floodnet-flood-sensor-nov-2020.csv",
+      "bytes": 2303777,
+      "mtime_ns": 1794278187605103800,
+      "integrity": "size/mtime fingerprint only; full CSV SHA256 not computed",
+      "included_in_bundle": false
+    },
+    {
+      "relative_path": "floodnet-flood-sensor-nov-2021.csv",
+      "bytes": 37404783,
+      "mtime_ns": 1794278192261870400,
+      "integrity": "size/mtime fingerprint only; full CSV SHA256 not computed",
+      "included_in_bundle": false
+    },
+    {
+      "relative_path": "floodnet-flood-sensor-nov-2022.csv",
+      "bytes": 163688034,
+      "mtime_ns": 1794278198517217900,
+      "integrity": "size/mtime fingerprint only; full CSV SHA256 not computed",
+      "included_in_bundle": false
+    },
+    {
+      "relative_path": "floodnet-flood-sensor-oct-2020.csv",
+      "bytes": 2057220,
+      "mtime_ns": 1794278194926176700,
+      "integrity": "size/mtime fingerprint only; full CSV SHA256 not computed",
+      "included_in_bundle": false
+    },
+    {
+      "relative_path": "floodnet-flood-sensor-oct-2021.csv",
+      "bytes": 43980293,
+      "mtime_ns": 1794278198279135600,
+      "integrity": "size/mtime fingerprint only; full CSV SHA256 not computed",
+      "included_in_bundle": false
+    },
+    {
+      "relative_path": "floodnet-flood-sensor-oct-2022.csv",
+      "bytes": 163698114,
+      "mtime_ns": 1794278212980361600,
+      "integrity": "size/mtime fingerprint only; full CSV SHA256 not computed",
+      "included_in_bundle": false
+    },
+    {
+      "relative_path": "floodnet-flood-sensor-oct-2023.csv",
+      "bytes": 489087834,
+      "mtime_ns": 1794278222292045100,
+      "integrity": "size/mtime fingerprint only; full CSV SHA256 not computed",
+      "included_in_bundle": false
+    },
+    {
+      "relative_path": "floodnet-flood-sensor-sep-2021.csv",
+      "bytes": 16025889,
+      "mtime_ns": 1794278204318690900,
+      "integrity": "size/mtime fingerprint only; full CSV SHA256 not computed",
+      "included_in_bundle": false
+    },
+    {
+      "relative_path": "floodnet-flood-sensor-sep-2022.csv",
+      "bytes": 148119830,
+      "mtime_ns": 1794278211917664800,
+      "integrity": "size/mtime fingerprint only; full CSV SHA256 not computed",
+      "included_in_bundle": false
+    }
+  ],
+  "raw_window_files": [
+    {
+      "relative_path": "analysis/training_runs/20261110T043429_532355Z_raw_delta/windows/daily_new_falcon_train.parquet",
+      "purpose": "train",
+      "station": "daily_new_falcon",
+      "rows": 208388,
+      "recorded_sha256": "6e2b97de9f97debf8ff53957b94ac777a5c2e0bdaed0dbf1f63d1949a60bac6b",
+      "included_in_bundle": false
+    },
+    {
+      "relative_path": "analysis/training_runs/20261110T043429_532355Z_raw_delta/windows/daily_new_falcon_validation.parquet",
+      "purpose": "validation",
+      "station": "daily_new_falcon",
+      "rows": 51444,
+      "recorded_sha256": "8b9b45d6b74dc5c2282f0c2b157382cf82c477004aebdecc8b347085bb2d3990",
+      "included_in_bundle": false
+    },
+    {
+      "relative_path": "analysis/training_runs/20261110T043429_532355Z_raw_delta/windows/ugliest_cyan_elephant_train.parquet",
+      "purpose": "train",
+      "station": "ugliest_cyan_elephant",
+      "rows": 33849,
+      "recorded_sha256": "4c37f82241e15ccb1582d566b38516f7764e03b5444b1d5dc6a9276a5833f1a1",
+      "included_in_bundle": false
+    },
+    {
+      "relative_path": "analysis/training_runs/20261110T043429_532355Z_raw_delta/windows/ugliest_cyan_elephant_validation.parquet",
+      "purpose": "validation",
+      "station": "ugliest_cyan_elephant",
+      "rows": 40771,
+      "recorded_sha256": "ccefbf6fe277eb5d2057d82f907a41dadcbdc7473dd07d93ed6838c83f5e9f42",
+      "included_in_bundle": false
+    },
+    {
+      "relative_path": "analysis/training_runs/20261110T043429_532355Z_raw_delta/windows/widely_proud_lizard_train.parquet",
+      "purpose": "train",
+      "station": "widely_proud_lizard",
+      "rows": 28075,
+      "recorded_sha256": "43bc0601e721ec84912b032b0087dd0879854ea01b26d4d65cb1988a8b78176a",
+      "included_in_bundle": false
+    },
+    {
+      "relative_path": "analysis/training_runs/20261110T043429_532355Z_raw_delta/windows/widely_proud_lizard_validation.parquet",
+      "purpose": "validation",
+      "station": "widely_proud_lizard",
+      "rows": 0,
+      "recorded_sha256": "9ecb6a754d4c11d51a4f7de1d0e5df0f5d83aadcb751a4e8ead8067e4209c464",
+      "included_in_bundle": false
+    }
+  ],
+  "raw_source_cache_files": [
+    {
+      "relative_path": "analysis/five_minute/local_cache/floodnet-flood-sensor-oct-2020_87fd6b02e7614d58/daily_new_falcon.parquet",
+      "station": "daily_new_falcon",
+      "rows": 9073,
+      "recorded_sha256": "52ccaa2a605d4e9429154d71d7c9fe6ab82cef714a2cc21f51a337df8e586da5",
+      "included_in_bundle": false
+    },
+    {
+      "relative_path": "analysis/five_minute/local_cache/floodnet-flood-sensor-nov-2020_086a2d3499956024/daily_new_falcon.parquet",
+      "station": "daily_new_falcon",
+      "rows": 10114,
+      "recorded_sha256": "0cf09050980d2f7d2247d31e827ec46ba12e2e37cc17fbdd7db9c7a5ab64969e",
+      "included_in_bundle": false
+    },
+    {
+      "relative_path": "analysis/five_minute/local_cache/floodnet-flood-sensor-dec-2020_c5c3521f11c8f9a0/daily_new_falcon.parquet",
+      "station": "daily_new_falcon",
+      "rows": 9470,
+      "recorded_sha256": "e190f254185fc3a00263babd036c0a2815b2451a0ceb8d6c00f6dde8b06cd3f9",
+      "included_in_bundle": false
+    },
+    {
+      "relative_path": "analysis/five_minute/local_cache/floodnet-flood-sensor-jan-2021_f71be4bb156435a4/daily_new_falcon.parquet",
+      "station": "daily_new_falcon",
+      "rows": 10385,
+      "recorded_sha256": "c9d23ae1c20f17d1743d10ab880026192aae62c82b16a60acd8a433bb2081197",
+      "included_in_bundle": false
+    },
+    {
+      "relative_path": "analysis/five_minute/local_cache/floodnet-flood-sensor-feb-2021_88a1bc1fbfb01f7b/daily_new_falcon.parquet",
+      "station": "daily_new_falcon",
+      "rows": 3784,
+      "recorded_sha256": "95b5a6abb3dc74c132379c38f4920da6ea43c7d831bf0feb3f1ade6636ddeee7",
+      "included_in_bundle": false
+    },
+    {
+      "relative_path": "analysis/five_minute/local_cache/floodnet-flood-sensor-mar-2021_5df26a28d431b972/daily_new_falcon.parquet",
+      "station": "daily_new_falcon",
+      "rows": 10215,
+      "recorded_sha256": "6da85525b3798dd8f0ad43062d76bfbaf2f2efa134ba3bc1e66ad9ab11a537e1",
+      "included_in_bundle": false
+    },
+    {
+      "relative_path": "analysis/five_minute/local_cache/floodnet-flood-sensor-apr-2021_25e4d59e4fa0eec2/daily_new_falcon.parquet",
+      "station": "daily_new_falcon",
+      "rows": 10193,
+      "recorded_sha256": "af56c14167a565d668e98938c76e007ca698070369332f95ceec521252b2d67c",
+      "included_in_bundle": false
+    },
+    {
+      "relative_path": "analysis/five_minute/local_cache/floodnet-flood-sensor-may-2021_a2ff0b29766cf778/daily_new_falcon.parquet",
+      "station": "daily_new_falcon",
+      "rows": 10204,
+      "recorded_sha256": "67e35fafff053d0609d2aaf69ac7a0c9eec95fcb0edfe1e87d5bb07fc76aa345",
+      "included_in_bundle": false
+    },
+    {
+      "relative_path": "analysis/five_minute/local_cache/floodnet-flood-sensor-jun-2021_b8141cbfeff4f3ae/daily_new_falcon.parquet",
+      "station": "daily_new_falcon",
+      "rows": 8235,
+      "recorded_sha256": "43b547439eeeccd9b021d6a2fd4933a07b9cf3c5c0d120efe87f5566d450a631",
+      "included_in_bundle": false
+    },
+    {
+      "relative_path": "analysis/five_minute/local_cache/floodnet-flood-sensor-jul-2021_ad464054e604d2da/daily_new_falcon.parquet",
+      "station": "daily_new_falcon",
+      "rows": 10144,
+      "recorded_sha256": "72e4e7e95d56152c05882f73e0b0a02f6d5623a895a53eff6abaa8e7bc5f1666",
+      "included_in_bundle": false
+    },
+    {
+      "relative_path": "analysis/five_minute/local_cache/floodnet-flood-sensor-jul-2021_ad464054e604d2da/widely_proud_lizard.parquet",
+      "station": "widely_proud_lizard",
+      "rows": 4098,
+      "recorded_sha256": "97575b0c40247275941f95e77a8689415b0811bea5960354b994233fe6a81848",
+      "included_in_bundle": false
+    },
+    {
+      "relative_path": "analysis/five_minute/local_cache/floodnet-flood-sensor-aug-2021_e2ab83fc066535db/daily_new_falcon.parquet",
+      "station": "daily_new_falcon",
+      "rows": 9830,
+      "recorded_sha256": "b20bacd597034ef60652779f1fc14a0a367de11b9a506e2e1c8e611fac745fc4",
+      "included_in_bundle": false
+    },
+    {
+      "relative_path": "analysis/five_minute/local_cache/floodnet-flood-sensor-aug-2021_e2ab83fc066535db/widely_proud_lizard.parquet",
+      "station": "widely_proud_lizard",
+      "rows": 8049,
+      "recorded_sha256": "7d2c5c1cd1f2cbca658dea534c6aa443c7ab4eb96884001ce516d368fdb27207",
+      "included_in_bundle": false
+    },
+    {
+      "relative_path": "analysis/five_minute/local_cache/floodnet-flood-sensor-sep-2021_aa1c097971c855e9/daily_new_falcon.parquet",
+      "station": "daily_new_falcon",
+      "rows": 9968,
+      "recorded_sha256": "d654080a2f1e5b533f914bdf989069a7d7ee84422fb081dc60c87c631ca87a7a",
+      "included_in_bundle": false
+    },
+    {
+      "relative_path": "analysis/five_minute/local_cache/floodnet-flood-sensor-sep-2021_aa1c097971c855e9/widely_proud_lizard.parquet",
+      "station": "widely_proud_lizard",
+      "rows": 7799,
+      "recorded_sha256": "db89b698ab2f8b208ab51d890a757f8fd5f26149bc66ed1df6eb5d3cee6c1b1d",
+      "included_in_bundle": false
+    },
+    {
+      "relative_path": "analysis/five_minute/local_cache/floodnet-flood-sensor-oct-2021_4cdb4736a003eb4d/daily_new_falcon.parquet",
+      "station": "daily_new_falcon",
+      "rows": 10298,
+      "recorded_sha256": "a389c644544930ff13267b5a1ad0302df6d7777e88ed3ffa7b136349bf6a1b9a",
+      "included_in_bundle": false
+    },
+    {
+      "relative_path": "analysis/five_minute/local_cache/floodnet-flood-sensor-oct-2021_4cdb4736a003eb4d/widely_proud_lizard.parquet",
+      "station": "widely_proud_lizard",
+      "rows": 6035,
+      "recorded_sha256": "ccacea0384c889cdcda3f0090368fad275e36bc58a4333f796bac85f0fdf545c",
+      "included_in_bundle": false
+    },
+    {
+      "relative_path": "analysis/five_minute/local_cache/floodnet-flood-sensor-nov-2021_6500cc0a9c06c34c/daily_new_falcon.parquet",
+      "station": "daily_new_falcon",
+      "rows": 19475,
+      "recorded_sha256": "ba6334aff761f259839c00dea9989bce6d39ea2d13ff9bb4e3f7cbdbac17db78",
+      "included_in_bundle": false
+    },
+    {
+      "relative_path": "analysis/five_minute/local_cache/floodnet-flood-sensor-nov-2021_6500cc0a9c06c34c/widely_proud_lizard.parquet",
+      "station": "widely_proud_lizard",
+      "rows": 7880,
+      "recorded_sha256": "5ee0046b04fd790459a7ff1732af8ff993de6d6618f267bb0f1661280dcf14b8",
+      "included_in_bundle": false
+    },
+    {
+      "relative_path": "analysis/five_minute/local_cache/floodnet-flood-sensor-dec-2021_0fb1288a4d4097b2/daily_new_falcon.parquet",
+      "station": "daily_new_falcon",
+      "rows": 42011,
+      "recorded_sha256": "50c5eba1e92d552c26f6e6982ffb6fcc26c4630b14b8b39458700656fd2858df",
+      "included_in_bundle": false
+    },
+    {
+      "relative_path": "analysis/five_minute/local_cache/floodnet-flood-sensor-dec-2021_0fb1288a4d4097b2/widely_proud_lizard.parquet",
+      "station": "widely_proud_lizard",
+      "rows": 2604,
+      "recorded_sha256": "c80301af9b5ca2a49ac379c4e3dc1f70bf4a43f1fb0379525bc19bc7805f2bb3",
+      "included_in_bundle": false
+    },
+    {
+      "relative_path": "analysis/five_minute/local_cache/floodnet-flood-sensor-jan-2022_b6c2b0cf9136ca17/daily_new_falcon.parquet",
+      "station": "daily_new_falcon",
+      "rows": 37972,
+      "recorded_sha256": "d5410bd650be7aa012b3e859622608f86a786442620ded88591b0de2de4c0371",
+      "included_in_bundle": false
+    },
+    {
+      "relative_path": "analysis/five_minute/local_cache/floodnet-flood-sensor-feb-2022_dc29b7f347f110ac/daily_new_falcon.parquet",
+      "station": "daily_new_falcon",
+      "rows": 35499,
+      "recorded_sha256": "9673c164c7a0a0bb750b5e7346f238cbfc6b631bbb5ef1a8c15cf1cfb3deb8ab",
+      "included_in_bundle": false
+    },
+    {
+      "relative_path": "analysis/five_minute/local_cache/floodnet-flood-sensor-mar-2022_3984ea517a12c22e/daily_new_falcon.parquet",
+      "station": "daily_new_falcon",
+      "rows": 31952,
+      "recorded_sha256": "a3d47756e850747cdcac34a85bc4ec8b8130cfaf1c161284ec99fd8030bf5abc",
+      "included_in_bundle": false
+    },
+    {
+      "relative_path": "analysis/five_minute/local_cache/floodnet-flood-sensor-apr-2022_e5c16d1a2549621f/daily_new_falcon.parquet",
+      "station": "daily_new_falcon",
+      "rows": 40352,
+      "recorded_sha256": "cb018e0c3197f3eb6ddba5a7db9bb64d07397b8262155e4ff498f58c62f0cf59",
+      "included_in_bundle": false
+    },
+    {
+      "relative_path": "analysis/five_minute/local_cache/floodnet-flood-sensor-may-2022_4433db17ee459e9a/daily_new_falcon.parquet",
+      "station": "daily_new_falcon",
+      "rows": 38145,
+      "recorded_sha256": "758fc63e803036109899eb24b1b1ba17838fda9f1a8d9c48688b541c4dba6360",
+      "included_in_bundle": false
+    },
+    {
+      "relative_path": "analysis/five_minute/local_cache/floodnet-flood-sensor-jun-2022_5c9da035f3fb6431/daily_new_falcon.parquet",
+      "station": "daily_new_falcon",
+      "rows": 41065,
+      "recorded_sha256": "8e25c68749935526ce753a3fe202bbe659ea3c9a754be52e84e579056b234fb3",
+      "included_in_bundle": false
+    },
+    {
+      "relative_path": "analysis/five_minute/local_cache/floodnet-flood-sensor-jul-2022_2c84b9d5d8321ef4/daily_new_falcon.parquet",
+      "station": "daily_new_falcon",
+      "rows": 41105,
+      "recorded_sha256": "575c44430ebd3814c6b8e11785c6456598a25fab8abea4affd9de8872453b0cb",
+      "included_in_bundle": false
+    },
+    {
+      "relative_path": "analysis/five_minute/local_cache/floodnet-flood-sensor-jul-2022_2c84b9d5d8321ef4/ugliest_cyan_elephant.parquet",
+      "station": "ugliest_cyan_elephant",
+      "rows": 1062,
+      "recorded_sha256": "9aaa227807710628affa01ebeebe279b928777deeab15dd4ad443249a48ced8a",
+      "included_in_bundle": false
+    },
+    {
+      "relative_path": "analysis/five_minute/local_cache/floodnet-flood-sensor-aug-2022_91ba2766fb8d1530/daily_new_falcon.parquet",
+      "station": "daily_new_falcon",
+      "rows": 38183,
+      "recorded_sha256": "63188651ee133ec6439947ac23a0c40e018b10cbfebb0672f66db3ddf7cffcd9",
+      "included_in_bundle": false
+    },
+    {
+      "relative_path": "analysis/five_minute/local_cache/floodnet-flood-sensor-aug-2022_91ba2766fb8d1530/ugliest_cyan_elephant.parquet",
+      "station": "ugliest_cyan_elephant",
+      "rows": 12982,
+      "recorded_sha256": "72f062906b8d93e3f8bf226820b70aa9f71001fab6741187c458e4af48bda950",
+      "included_in_bundle": false
+    },
+    {
+      "relative_path": "analysis/five_minute/local_cache/floodnet-flood-sensor-sep-2022_6c2c5db1bc3653ce/daily_new_falcon.parquet",
+      "station": "daily_new_falcon",
+      "rows": 41045,
+      "recorded_sha256": "9b374015ead774b686a40daeef8763fd14c3c20b7c134c92e867f9aef3c4a3d4",
+      "included_in_bundle": false
+    },
+    {
+      "relative_path": "analysis/five_minute/local_cache/floodnet-flood-sensor-sep-2022_6c2c5db1bc3653ce/ugliest_cyan_elephant.parquet",
+      "station": "ugliest_cyan_elephant",
+      "rows": 13950,
+      "recorded_sha256": "4dc74dbc1634ac4ac35ce005ebcf03987f1b222a913dd50dccd551b1df4999f4",
+      "included_in_bundle": false
+    },
+    {
+      "relative_path": "analysis/five_minute/local_cache/floodnet-flood-sensor-oct-2022_48eb29f38bdbde81/daily_new_falcon.parquet",
+      "station": "daily_new_falcon",
+      "rows": 42427,
+      "recorded_sha256": "55bfdd326315a3ec55ff417ec74cf9738f6dd86bb7c5e61d057cefffde2ebe27",
+      "included_in_bundle": false
+    },
+    {
+      "relative_path": "analysis/five_minute/local_cache/floodnet-flood-sensor-oct-2022_48eb29f38bdbde81/ugliest_cyan_elephant.parquet",
+      "station": "ugliest_cyan_elephant",
+      "rows": 14412,
+      "recorded_sha256": "5df91b819b2118aa3729d8ce8ec2972573ffacc70ba336a9441c07e383906a77",
+      "included_in_bundle": false
+    },
+    {
+      "relative_path": "analysis/five_minute/local_cache/floodnet-flood-sensor-nov-2022_6aa859673d735ebc/daily_new_falcon.parquet",
+      "station": "daily_new_falcon",
+      "rows": 41015,
+      "recorded_sha256": "164f5b0d2c83b91a4a9af003251d18c119a6c1f4f88b2851c2a7568f0a33f074",
+      "included_in_bundle": false
+    },
+    {
+      "relative_path": "analysis/five_minute/local_cache/floodnet-flood-sensor-nov-2022_6aa859673d735ebc/ugliest_cyan_elephant.parquet",
+      "station": "ugliest_cyan_elephant",
+      "rows": 9499,
+      "recorded_sha256": "564bdf0df7234bfb647727a670c056724145af1aba4b6f025abc538e44c751ff",
+      "included_in_bundle": false
+    },
+    {
+      "relative_path": "analysis/five_minute/local_cache/floodnet-flood-sensor-dec-2022_a141e844635fe263/daily_new_falcon.parquet",
+      "station": "daily_new_falcon",
+      "rows": 42323,
+      "recorded_sha256": "1c82704055f99952265b3a2b503a6e6551afbc9029b93a4451c870978e292a59",
+      "included_in_bundle": false
+    },
+    {
+      "relative_path": "analysis/five_minute/local_cache/floodnet-flood-sensor-dec-2022_a141e844635fe263/ugliest_cyan_elephant.parquet",
+      "station": "ugliest_cyan_elephant",
+      "rows": 5186,
+      "recorded_sha256": "8dfe3239c3791e3551755c2c1d384586c76048eef3fc194cace5151c6e38964c",
+      "included_in_bundle": false
+    },
+    {
+      "relative_path": "analysis/five_minute/local_cache/floodnet-flood-sensor-jan-2023_246ba4a842feebf7/daily_new_falcon.parquet",
+      "station": "daily_new_falcon",
+      "rows": 42378,
+      "recorded_sha256": "360cdf46e790fa76eb47304dcde3663e03ce1baa510965cdbdfda1e667be3b11",
+      "included_in_bundle": false
+    },
+    {
+      "relative_path": "analysis/five_minute/local_cache/floodnet-flood-sensor-jan-2023_246ba4a842feebf7/ugliest_cyan_elephant.parquet",
+      "station": "ugliest_cyan_elephant",
+      "rows": 14501,
+      "recorded_sha256": "a764b9b6bcf72f0a60e24cf71104c081bdf98d3c296306b9debf6520a4cc2f9d",
+      "included_in_bundle": false
+    },
+    {
+      "relative_path": "analysis/five_minute/local_cache/floodnet-flood-sensor-feb-2023_b9178daa280caec3/daily_new_falcon.parquet",
+      "station": "daily_new_falcon",
+      "rows": 38100,
+      "recorded_sha256": "8caa51165985aa1b5dbd135a4b60b1e489504daed05a46c877a2e0e2582d4634",
+      "included_in_bundle": false
+    },
+    {
+      "relative_path": "analysis/five_minute/local_cache/floodnet-flood-sensor-feb-2023_b9178daa280caec3/ugliest_cyan_elephant.parquet",
+      "station": "ugliest_cyan_elephant",
+      "rows": 13034,
+      "recorded_sha256": "20876ed99bc8dd4bbecc0a9ac553c0494e1ac24aa5f2112815ed97d2f9dc3b44",
+      "included_in_bundle": false
+    },
+    {
+      "relative_path": "analysis/five_minute/local_cache/floodnet-flood-sensor-mar-2023_0b36eb4f7c88262c/daily_new_falcon.parquet",
+      "station": "daily_new_falcon",
+      "rows": 42571,
+      "recorded_sha256": "764415e9f02b3280b23196486773b0e7e8adddd461a58cd378c60d6778b9b52c",
+      "included_in_bundle": false
+    },
+    {
+      "relative_path": "analysis/five_minute/local_cache/floodnet-flood-sensor-mar-2023_0b36eb4f7c88262c/ugliest_cyan_elephant.parquet",
+      "station": "ugliest_cyan_elephant",
+      "rows": 14564,
+      "recorded_sha256": "e9bada8cd5fafd4ef429bc889fd80be84f326b53d1af34810cec6002e8fd6f72",
+      "included_in_bundle": false
+    },
+    {
+      "relative_path": "analysis/five_minute/local_cache/floodnet-flood-sensor-apr-2023_366c225ef832a5e3/daily_new_falcon.parquet",
+      "station": "daily_new_falcon",
+      "rows": 41138,
+      "recorded_sha256": "3c21db8c7e98baccd18128173a3062e8894c7abe9eb322b2ef81551196210d19",
+      "included_in_bundle": false
+    },
+    {
+      "relative_path": "analysis/five_minute/local_cache/floodnet-flood-sensor-apr-2023_366c225ef832a5e3/ugliest_cyan_elephant.parquet",
+      "station": "ugliest_cyan_elephant",
+      "rows": 13558,
+      "recorded_sha256": "45aa95db9613e26db5fdcc07e805923930a4c63b65ab1f00e6cfde12b43ded73",
+      "included_in_bundle": false
+    },
+    {
+      "relative_path": "analysis/five_minute/local_cache/floodnet-flood-sensor-may-2023_50108846085b06df/daily_new_falcon.parquet",
+      "station": "daily_new_falcon",
+      "rows": 42567,
+      "recorded_sha256": "5641931d250e88dc028b7e3fd1c7fe610f6dd0713d1d4717d68d50730523e506",
+      "included_in_bundle": false
+    },
+    {
+      "relative_path": "analysis/five_minute/local_cache/floodnet-flood-sensor-may-2023_50108846085b06df/ugliest_cyan_elephant.parquet",
+      "station": "ugliest_cyan_elephant",
+      "rows": 6984,
+      "recorded_sha256": "aca29a5a825fd5d6ba5f1e6bc9a2d664a2a48820c91a31012d151b522881c1ea",
+      "included_in_bundle": false
+    },
+    {
+      "relative_path": "analysis/five_minute/local_cache/floodnet-flood-sensor-jun-2023_dc2198722563d03d/daily_new_falcon.parquet",
+      "station": "daily_new_falcon",
+      "rows": 41164,
+      "recorded_sha256": "cad3c8efa7fdaec084f5a0e9238dfbe3efe570f1ef8730b4b256025f791e8264",
+      "included_in_bundle": false
+    },
+    {
+      "relative_path": "analysis/five_minute/local_cache/floodnet-flood-sensor-jun-2023_dc2198722563d03d/ugliest_cyan_elephant.parquet",
+      "station": "ugliest_cyan_elephant",
+      "rows": 29190,
+      "recorded_sha256": "cad782cab983608dc8f2bbc978b67c56b6b234301e1972271b22663a4dc79010",
+      "included_in_bundle": false
+    }
+  ],
+  "additional_project_resources": [
+    "analysis/five_minute/selection_manifest.json",
+    "analysis/five_minute/provisional_windows/",
+    "analysis/five_minute/review_18/",
+    "analysis/training_runs/20261110T043429_532355Z_raw_delta/validation_predictions_local.parquet",
+    "Other runs/windows/provenance are needed to reproduce other experiments; see reference docs."
+  ]
+}

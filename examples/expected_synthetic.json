@@ -1,0 +1,22 @@
+{
+  "status": "ok",
+  "mode": "OFFLINE_RESEARCH_ONLY",
+  "station": "synthetic-demo",
+  "as_of_utc": "2026-01-01T10:10:00+00:00",
+  "decision_time_utc": "2026-01-01T10:10:00+00:00",
+  "model_id": "raw_delta_d3_weight20",
+  "target_bin_start_exclusive_utc": "2026-01-01T10:15:00+00:00",
+  "target_bin_end_inclusive_utc": "2026-01-01T10:20:00+00:00",
+  "warning": "Archive observation clock only; not validated live ESP32 forecasting or road-safety advice.",
+  "current_depth_cm": 9.75,
+  "predicted_delta_cm": 4.8034186363220215,
+  "predicted_depth_cm": 14.553418636322021,
+  "persistence_depth_cm": 9.75,
+  "current_bin_source_age_seconds": 0.0,
+  "runtime_packages": {
+    "pandas": "3.1.1",
+    "numpy": "2.5.4",
+    "xgboost": "3.4.1"
+  },
+  "runtime_matches_recorded_packages": true
+}

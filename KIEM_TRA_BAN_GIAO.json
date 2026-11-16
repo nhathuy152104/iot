@@ -1,0 +1,45 @@
+{
+  "status": "PASS",
+  "checked_at_utc": "2026-11-11T01:33:18.570717+00:00",
+  "scope": "preparer machine only; recipient must rerun; not deployment approval or permission to redistribute",
+  "python": "3.15.2 (tags/v3.15.2:5e58eaa, Oct 25 2026, 17:27:03) [MSC v.1951 64 bit (AMD64)]",
+  "packages": {
+    "pandas": "3.1.1",
+    "numpy": "2.5.4",
+    "xgboost": "3.4.1"
+  },
+  "packaged_csv_or_parquet": [],
+  "full_download_training_cli_executed": false,
+  "checks": [
+    {
+      "check": "bundle_checksums",
+      "exit_code": 0,
+      "stdout": "PASS: 105 bundle files match size and SHA256\n",
+      "stderr": ""
+    },
+    {
+      "check": "unit_tests",
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "test_duplicate_time_keeps_first_physical_row (test_inference.InferenceTests.test_duplicate_time_keeps_first_physical_row) ... ok\ntest_future_or_unfinished_bin_cannot_change_completed_features (test_inference.InferenceTests.test_future_or_unfinished_bin_cannot_change_completed_features) ... ok\ntest_last_physical_null_invalidates_bin (test_inference.InferenceTests.test_last_physical_null_invalidates_bin) ... ok\ntest_missing_history_is_unavailable_not_filled (test_inference.InferenceTests.test_missing_history_is_unavailable_not_filled) ... ok\ntest_multistation_input_requires_explicit_selection (test_inference.InferenceTests.test_multistation_input_requires_explicit_selection) ... ok\ntest_naive_cutoff_is_rejected (test_inference.InferenceTests.test_naive_cutoff_is_rejected) ... ok\ntest_negative_raw_is_floored_but_highs_not_clipped (test_inference.InferenceTests.test_negative_raw_is_floored_but_highs_not_clipped) ... ok\ntest_sample_matches_frozen_expected_prediction (test_inference.InferenceTests.test_sample_matches_frozen_expected_prediction) ... ok\ntest_source_month_key_allows_pretest_filtering_before_read (test_inference.InferenceTests.test_source_month_key_allows_pretest_filtering_before_read) ... ok\ntest_training_prep_uses_future_proc_as_label_not_feature (test_inference.InferenceTests.test_training_prep_uses_future_proc_as_label_not_feature) ... ok\n\n----------------------------------------------------------------------\nRan 10 tests in 1.105s\n\nOK\n"
+    },
+    {
+      "check": "synthetic_prediction",
+      "exit_code": 0,
+      "stdout": "{\n  \"status\": \"ok\",\n  \"mode\": \"OFFLINE_RESEARCH_ONLY\",\n  \"station\": \"synthetic-demo\",\n  \"as_of_utc\": \"2026-01-01T10:10:00+00:00\",\n  \"decision_time_utc\": \"2026-01-01T10:10:00+00:00\",\n  \"model_id\": \"raw_delta_d3_weight20\",\n  \"target_bin_start_exclusive_utc\": \"2026-01-01T10:15:00+00:00\",\n  \"target_bin_end_inclusive_utc\": \"2026-01-01T10:20:00+00:00\",\n  \"warning\": \"Archive observation clock only; not validated live ESP32 forecasting or road-safety advice.\",\n  \"current_depth_cm\": 9.75,\n  \"predicted_delta_cm\": 4.8034186363220215,\n  \"predicted_depth_cm\": 14.553418636322021,\n  \"persistence_depth_cm\": 9.75,\n  \"current_bin_source_age_seconds\": 0.0,\n  \"runtime_packages\": {\n    \"pandas\": \"3.1.1\",\n    \"numpy\": \"2.5.4\",\n    \"xgboost\": \"3.4.1\"\n  },\n  \"runtime_matches_recorded_packages\": true\n}\n",
+      "stderr": ""
+    },
+    {
+      "check": "relocated_folder_smoke",
+      "exit_code": 0,
+      "stdout": "PASS: manifest-only copy runs from a different folder without original project/data paths\n",
+      "stderr": ""
+    },
+    {
+      "check": "project_validation_parity",
+      "exit_code": 0,
+      "stdout": "{\n  \"status\": \"PASS\",\n  \"validation_rows\": 92215,\n  \"source_cache_files_checked\": 45,\n  \"features_match_frozen_windows\": true,\n  \"predictions_match_original\": true,\n  \"download_trainer_validation_membership_and_labels_match\": true,\n  \"balanced_mae_cm\": 0.49494020694677276,\n  \"training_windows_loaded\": false,\n  \"past_raw_history_included_for_exact_rolling_state\": true,\n  \"test_loaded\": false\n}\n",
+      "stderr": ""
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "status": "PASS",
+  "raw_windows_rebuilt": {
+    "train": 270312,
+    "validation": 92215
+  },
+  "source_csv_fingerprints_verified": 33,
+  "source_cache_checksums_verified": 51,
+  "raw_window_files_verified": 6,
+  "original_proc_window_files_verified": 5,
+  "methods_repredicted_on_validation": 6,
+  "paired_methods_repredicted": 5,
+  "selected_forecaster": "raw_delta_d3_weight20",
+  "test_loaded": false,
+  "checks": [
+    "all raw windows reconstructed from checksummed source caches",
+    "whole-source/prefix features equal at original train cutoffs",
+    "all coverage, exclusion reasons and memberships reproduce",
+    "all 4 saved delta models and 2 baselines reproduce every validation prediction/metric",
+    "paired proc/raw labels, predictions and metrics reproduce",
+    "selection uses full raw validation, not common-subset scores",
+    "original data/config/code fingerprints match; source cache months precede July 2023"
+  ],
+  "artifact_sha256": {
+    "config_before_preparation.json": "3278564e66070883142b7baf21f4301423252165b3ab3c3574e05e34bbab3b81",
+    "config_before_fit.json": "d5a9da007384cfa5b2bce8e66eef048fd434756f12e37ca3af331d867c361967",
+    "selection_validation_only.json": "d0a01a37ea43b633c0e0b3b54b9c300b693345dc4a078dfa7a9462b8bb59ad83",
+    "summary.json": "bdaa0a279e62414b09ac3435b6d6c257a85166729fa9fbc0634f5586c5ed14bd",
+    "metrics.csv": "0f670913e0f59e361424372923f1c63a28478fdbe98254835f0bc4c676c73d60",
+    "window_coverage.csv": "f298b2eef998a53488fa1b33d799c066c69e21287431738ab66cd02606af7c42",
+    "exclusion_reasons.csv": "68b0bf4689c94f8fe1d61215bb2f651e7305af578987ad8852983f981f44a3f2",
+    "raw_bin_audit.csv": "985195449043224a1bf0f5494c2182968df12f3c22c2e61c82aab6f2c120a4c9",
+    "source_provenance.json": "404efa9d8ca52f3600ff35fe3e560bcb9aade521bfe5e068fb168565a516ce6f",
+    "proc_window_provenance.json": "8893a9d057efc1d0a7e6ddc22efbc70cb9f91d0c317792afabbfd67d8eb0bbd3",
+    "window_provenance.json": "6d604f2c5f35a03137a1735bfb7c07c5af14ba8b46c4e594ee994ea06d200c26",
+    "window_membership_local.parquet": "5b9591baf634669c70fb8f1d0b345c738a5522383f9591d7272c73f4cfbc6683",
+    "validation_predictions_local.parquet": "9715cc0f39f9e07114fefa0326e40f2d5364ac3498b02b7876a18ba79aa81c36",
+    "paired_validation_metrics.csv": "38babbd7e5e1b197dc381d5d9311012970cd7a4afcab82b6b887c706dca05f55",
+    "paired_validation_predictions_local.parquet": "86449eaafd7b81d2427be8b778e297d7dc9f2683443db6789b575c1ba65e1f55",
+    "prefix_causality_checks.json": "ab9d04208d2a60749102041d40fac4e69ddf33a376a08ac1995009b1212de509",
+    "raw_delta_d3_uniform.ubj": "b6a1646ef9072ee2fafc36c4720c3b5432cda3dc8a3f19ed67e358ac610a6933",
+    "raw_delta_d3_weight20.ubj": "3eea42ea5fd5eff235382f3b9b041d95c1273b7ef836a306a6ddd8e3bb30d399",
+    "raw_delta_d4_uniform.ubj": "3976246daa0ae6342824be97bd0bf6734d9675cf94dbaa92b1f6419f2d1cb34c",
+    "raw_delta_d4_weight20.ubj": "e97a3e9ad2ec032a21e90278ff539cfd0e155341a55836b37e370ad23fa8087e"
+  },
+  "limits": "Technical reproducibility only; not true-label, arrival-time, calibration, live-warning or transfer validation."
+}
