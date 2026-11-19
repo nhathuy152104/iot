@@ -1,0 +1,169 @@
+{
+  "test_split": "Jul, Aug, Oct 2023 (Out-of-sample)",
+  "total_test_windows": 42180,
+  "wet_windows_ge_10cm": 137,
+  "1_Persistence": {
+    "regression": {
+      "balanced_mae_cm": 4.2441,
+      "overall": {
+        "n": 42180,
+        "mae_cm": 3.5529,
+        "rmse_cm": 20.1168,
+        "bias_cm": 3.4833,
+        "p95_err_cm": 1.2,
+        "p99_err_cm": 120.7
+      },
+      "wet_ge_10cm": {
+        "n": 137,
+        "mae_cm": 4.9398,
+        "rmse_cm": 12.7727,
+        "bias_cm": -0.5631,
+        "p95_err_cm": 14.34,
+        "p99_err_cm": 68.446
+      },
+      "nonwet_lt_10cm": {
+        "n": 42043,
+        "mae_cm": 3.5484,
+        "rmse_cm": 20.1363,
+        "bias_cm": 3.4965,
+        "p95_err_cm": 1.1,
+        "p99_err_cm": 120.7
+      }
+    },
+    "classification_10cm": {
+      "threshold_cm": 10.0,
+      "TP": 94,
+      "FP": 1273,
+      "FN": 43,
+      "TN": 40770,
+      "POD_recall": 0.6861,
+      "Precision": 0.0688,
+      "FAR_false_alarm": 0.9312,
+      "CSI_threat_score": 0.0667,
+      "F1_score": 0.125
+    },
+    "events": {
+      "total_flood_events": 23,
+      "detected_events": 18,
+      "event_detection_rate": 0.7826,
+      "mean_lead_time_min": -6.94,
+      "mean_abs_peak_error_cm": 8.19
+    }
+  },
+  "2_Frozen_Original_Model": {
+    "regression": {
+      "balanced_mae_cm": 4.0754,
+      "overall": {
+        "n": 42180,
+        "mae_cm": 3.5025,
+        "rmse_cm": 19.9182,
+        "bias_cm": 3.4402,
+        "p95_err_cm": 1.4327,
+        "p99_err_cm": 119.8315
+      },
+      "wet_ge_10cm": {
+        "n": 137,
+        "mae_cm": 4.652,
+        "rmse_cm": 11.9367,
+        "bias_cm": -0.5686,
+        "p95_err_cm": 13.3861,
+        "p99_err_cm": 58.8285
+      },
+      "nonwet_lt_10cm": {
+        "n": 42043,
+        "mae_cm": 3.4987,
+        "rmse_cm": 19.939,
+        "bias_cm": 3.4533,
+        "p95_err_cm": 1.3073,
+        "p99_err_cm": 119.8315
+      }
+    },
+    "classification_10cm": {
+      "threshold_cm": 10.0,
+      "TP": 103,
+      "FP": 1354,
+      "FN": 34,
+      "TN": 40689,
+      "POD_recall": 0.7518,
+      "Precision": 0.0707,
+      "FAR_false_alarm": 0.9293,
+      "CSI_threat_score": 0.0691,
+      "F1_score": 0.1292
+    },
+    "events": {
+      "total_flood_events": 23,
+      "detected_events": 18,
+      "event_detection_rate": 0.7826,
+      "mean_lead_time_min": 7.5,
+      "mean_abs_peak_error_cm": 9.96
+    }
+  },
+  "3_TwoStage_Final_Architecture": {
+    "depth_regression_L1": {
+      "balanced_mae_cm": 4.2185,
+      "overall": {
+        "n": 42180,
+        "mae_cm": 3.4909,
+        "rmse_cm": 19.9852,
+        "bias_cm": 3.4124,
+        "p95_err_cm": 1.2054,
+        "p99_err_cm": 119.9284
+      },
+      "wet_ge_10cm": {
+        "n": 137,
+        "mae_cm": 4.9508,
+        "rmse_cm": 12.7967,
+        "bias_cm": -0.7221,
+        "p95_err_cm": 14.0817,
+        "p99_err_cm": 68.2434
+      },
+      "nonwet_lt_10cm": {
+        "n": 42043,
+        "mae_cm": 3.4862,
+        "rmse_cm": 20.0044,
+        "bias_cm": 3.4259,
+        "p95_err_cm": 1.1148,
+        "p99_err_cm": 119.9284
+      }
+    },
+    "depth_peak_error_cm": 8.62,
+    "prealert_level_prob_0_60": {
+      "threshold_cm": 10.0,
+      "TP": 106,
+      "FP": 1332,
+      "FN": 31,
+      "TN": 40711,
+      "POD_recall": 0.7737,
+      "Precision": 0.0737,
+      "FAR_false_alarm": 0.9263,
+      "CSI_threat_score": 0.0722,
+      "F1_score": 0.1346,
+      "events": {
+        "total_flood_events": 23,
+        "detected_events": 19,
+        "event_detection_rate": 0.8261,
+        "mean_lead_time_min": 5.79,
+        "mean_abs_peak_error_cm": 10.75
+      }
+    },
+    "official_alert_prob_0_80_or_10cm": {
+      "threshold_cm": 10.0,
+      "TP": 103,
+      "FP": 1308,
+      "FN": 34,
+      "TN": 40735,
+      "POD_recall": 0.7518,
+      "Precision": 0.073,
+      "FAR_false_alarm": 0.927,
+      "CSI_threat_score": 0.0713,
+      "F1_score": 0.1331,
+      "events": {
+        "total_flood_events": 23,
+        "detected_events": 19,
+        "event_detection_rate": 0.8261,
+        "mean_lead_time_min": 3.42,
+        "mean_abs_peak_error_cm": 10.8
+      }
+    }
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "counts": {
+    "train": 270312,
+    "validation": 92215
+  },
+  "sources": [
+    {
+      "filename": "floodnet-flood-sensor-oct-2020.csv",
+      "bytes": 2057220,
+      "sha256": "64a50261f8b6da3567ae41af2e5d5257c5b72251b67c5de5289c6f4928a16864"
+    },
+    {
+      "filename": "floodnet-flood-sensor-nov-2020.csv",
+      "bytes": 2303777,
+      "sha256": "e4646342eeb305a01f2aadee77d1ec1ff50333e1acafd66115e965aa9206bcf0"
+    },
+    {
+      "filename": "floodnet-flood-sensor-dec-2020.csv",
+      "bytes": 2745509,
+      "sha256": "9cc0aea7eb448f9c1a660031f80d349255cc6ad36fb49fed2db6718b51107c65"
+    },
+    {
+      "filename": "floodnet-flood-sensor-jan-2021.csv",
+      "bytes": 4253400,
+      "sha256": "0ec07fd824983e3f5df997c9145745317599e91ded8e5146ea06939661a19c91"
+    },
+    {
+      "filename": "floodnet-flood-sensor-feb-2021.csv",
+      "bytes": 2461411,
+      "sha256": "059c802f9b937986cf0e99686f7b154d309eee569f4aa71a653bc94db13cb0e3"
+    },
+    {
+      "filename": "floodnet-flood-sensor-mar-2021.csv",
+      "bytes": 24111061,
+      "sha256": "b436630c6d4f6eba4bd338def972acc59652d342115ed5a846b53fab89d3939f"
+    },
+    {
+      "filename": "floodnet-flood-sensor-apr-2021.csv",
+      "bytes": 16032196,
+      "sha256": "0ea7f8cd65b8f139db86c85cc50d8a6cf45d0a82c849f2c441047a614985ae8f"
+    },
+    {
+      "filename": "floodnet-flood-sensor-may-2021.csv",
+      "bytes": 7919697,
+      "sha256": "5625df28a0393d1029accfefae51fc4aaed99abec6228b726d26552e12ac6630"
+    },
+    {
+      "filename": "floodnet-flood-sensor-jun-2021.csv",
+      "bytes": 7057794,
+      "sha256": "2c558667909f57f52fa9f9ec069b1e471a118d20899b8db937306933de6175b6"
+    },
+    {
+      "filename": "floodnet-flood-sensor-jul-2021.csv",
+      "bytes": 15502231,
+      "sha256": "dc5ec38a487559f80dec59b9d4f558a8e92ce4aacc48f1231847273a0f75b13b"
+    },
+    {
+      "filename": "floodnet-flood-sensor-aug-2021.csv",
+      "bytes": 26219443,
+      "sha256": "5e814ad8efded44cc974b557d68e2dac124a00d17d939833837eecdb07934e2b"
+    },
+    {
+      "filename": "floodnet-flood-sensor-sep-2021.csv",
+      "bytes": 16025889,
+      "sha256": "a4074c31c924bf7dd47a5a134a6275cad7acb809f063b12bb5f057bb6f06dc06"
+    },
+    {
+      "filename": "floodnet-flood-sensor-oct-2021.csv",
+      "bytes": 43980293,
+      "sha256": "532e9147cbceb374e7b344ae47c2665eaa80e7e2da84b8c60d9c7cc627f37849"
+    },
+    {
+      "filename": "floodnet-flood-sensor-nov-2021.csv",
+      "bytes": 37404783,
+      "sha256": "60e6170dd83327c8fb22341c1e4558945024d50de5c06771208144fef6c1cbd7"
+    },
+    {
+      "filename": "floodnet-flood-sensor-dec-2021.csv",
+      "bytes": 63105393,
+      "sha256": "523eaf1a77b1783197f158022dd6915ab3aa8d5f849f5b4ef6f9853fb47fb79f"
+    },
+    {
+      "filename": "floodnet-flood-sensor-jan-2022.csv",
+      "bytes": 64218804,
+      "sha256": "abbd8007dd1fc1e9475832c18096da607edfb2d2d22fad7f89967bb84e171175"
+    },
+    {
+      "filename": "floodnet-flood-sensor-feb-2022.csv",
+      "bytes": 82581486,
+      "sha256": "087b12ddaf760c671e8f516295f48a93f621cf27d5982a5f7930235ca446598f"
+    },
+    {
+      "filename": "floodnet-flood-sensor-mar-2022.csv",
+      "bytes": 120233201,
+      "sha256": "ee2f53cde234a718127a1a5d2f4cfe4761afd2f7733a086cddb00467838d03f4"
+    },
+    {
+      "filename": "floodnet-flood-sensor-apr-2022.csv",
+      "bytes": 98372021,
+      "sha256": "b0f9fe6a5e9406d9051f67f826b3180dec389d2ff8e1824840810cf913aa8df0"
+    },
+    {
+      "filename": "floodnet-flood-sensor-may-2022.csv",
+      "bytes": 76544659,
+      "sha256": "cd9fbe382b131edd2f4d964327450a7250172d765ac9c7cf6bfe59aa868d929c"
+    },
+    {
+      "filename": "floodnet-flood-sensor-jun-2022.csv",
+      "bytes": 96778017,
+      "sha256": "f3b526096187752cc848dc847b0a902ef93ccb0cb62bc6e3733e12248dcae0c9"
+    },
+    {
+      "filename": "floodnet-flood-sensor-jul-2022.csv",
+      "bytes": 100715452,
+      "sha256": "d8cb4f4633ad63525e51665080188cc431b08cfb921a34f59f1e640f4f24a672"
+    },
+    {
+      "filename": "floodnet-flood-sensor-aug-2022.csv",
+      "bytes": 128522440,
+      "sha256": "3368c9f434225a7e7d96c7eb0f4dc7f42d4cf3d882074b36118bbecfd8505a36"
+    },
+    {
+      "filename": "floodnet-flood-sensor-sep-2022.csv",
+      "bytes": 148119830,
+      "sha256": "a42bc41edce8be80547dc90e05bb75a74dacfe974a2dd26b8b6df19a3a1dbd2f"
+    },
+    {
+      "filename": "floodnet-flood-sensor-oct-2022.csv",
+      "bytes": 163698114,
+      "sha256": "7009899ca6f5d087c433a950a3d8c3e699a4e9280c932c493d7f77758047e42e"
+    },
+    {
+      "filename": "floodnet-flood-sensor-nov-2022.csv",
+      "bytes": 163688034,
+      "sha256": "206f9b8740ffccc898346929843107310386bdd31b6c0871e5766d64ce19081e"
+    },
+    {
+      "filename": "floodnet-flood-sensor-dec-2022.csv",
+      "bytes": 186255931,
+      "sha256": "a62482cb018ec06c97ce28de5ac76121900aaade1d8780d3401be7885fd07de4"
+    },
+    {
+      "filename": "floodnet-flood-sensor-jan-2023.csv",
+      "bytes": 191620585,
+      "sha256": "3d7dfa8bd4fe54933004ca8ab4dd6c65ac8975c946ee41518efcceff423eb3fe"
+    },
+    {
+      "filename": "floodnet-flood-sensor-feb-2023.csv",
+      "bytes": 124808494,
+      "sha256": "28d59e7789efac69d978099d3b045f9aa91a20219db515f3bd9e85fccd4687c1"
+    },
+    {
+      "filename": "floodnet-flood-sensor-mar-2023.csv",
+      "bytes": 212861460,
+      "sha256": "0e9f8d4cfad05b0a6defa636907fdec1e40c1dce7b63736189ef2e7d46b81050"
+    },
+    {
+      "filename": "floodnet-flood-sensor-apr-2023.csv",
+      "bytes": 292891443,
+      "sha256": "d56b91ed0af884d2d5e659897a2314902e1d85d2f208835320378a4e92cf4101"
+    },
+    {
+      "filename": "floodnet-flood-sensor-may-2023.csv",
+      "bytes": 292781476,
+      "sha256": "a344ccf5f829e51ae56b9ca347a85a4a85bbc581ff9302e0ca0155d8264708cc"
+    },
+    {
+      "filename": "floodnet-flood-sensor-jun-2023.csv",
+      "bytes": 372523247,
+      "sha256": "6f6c9428bb254cd00b1755e12e17e8e2c3bad3a0cf9dfdb048cc0b3097618d73"
+    }
+  ]
+}

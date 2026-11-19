@@ -1,0 +1,44 @@
+{
+  "1_DLinear_extrapolation": {
+    "balanced_mae_cm": 0.5401,
+    "mae_wet_cm": 0.972,
+    "wet_bias_cm": -0.7098,
+    "POD_recall": 0.9088,
+    "FAR_false_alarm": 0.0516,
+    "CSI_threat_score": 0.866,
+    "detected_events": "27/43",
+    "mean_lead_time_min": -7.41,
+    "mean_abs_peak_error_cm": 1.86
+  },
+  "2A_Adaptive_Blend_L1_Q65": {
+    "balanced_mae_cm": 0.4794,
+    "mae_wet_cm": 0.8931,
+    "wet_bias_cm": -0.4384,
+    "POD_recall": 0.9253,
+    "FAR_false_alarm": 0.0818,
+    "CSI_threat_score": 0.8548,
+    "detected_events": "31/43",
+    "mean_lead_time_min": -6.45,
+    "mean_abs_peak_error_cm": 1.98
+  },
+  "3_XGB_Tidal_Harmonics": {
+    "balanced_mae_cm": 0.4835,
+    "mae_wet_cm": 0.9007,
+    "wet_bias_cm": -0.4698,
+    "POD_recall": 0.9214,
+    "FAR_false_alarm": 0.0705,
+    "CSI_threat_score": 0.8613,
+    "detected_events": "31/43",
+    "mean_lead_time_min": -7.1,
+    "mean_abs_peak_error_cm": 2.03
+  },
+  "2B_TwoStage_Classifier_plus_L1": {
+    "balanced_mae_cm": 0.4778,
+    "POD_recall": 0.9534,
+    "FAR_false_alarm": 0.3063,
+    "CSI_threat_score": 0.671,
+    "detected_events": "40/43",
+    "mean_lead_time_min": 6.38,
+    "mean_abs_peak_error_cm": 0.8905
+  }
+}

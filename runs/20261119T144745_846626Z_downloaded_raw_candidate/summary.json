@@ -1,0 +1,28 @@
+{
+  "status": "NEW_RESEARCH_CANDIDATE_NOT_PROMOTED",
+  "test_loaded": false,
+  "metrics": {
+    "persistence": {
+      "windows": 92215,
+      "mae_cm": 0.12122810822534294,
+      "mae_wet_cm": 0.9499517839922854,
+      "mae_nonwet_cm": 0.1118027375024677,
+      "balanced_mae_cm": 0.5308772607473765
+    },
+    "frozen_three_core": {
+      "windows": 92215,
+      "mae_cm": 0.10286567477411641,
+      "mae_wet_cm": 0.8960357459834098,
+      "mae_nonwet_cm": 0.09384466791013564,
+      "balanced_mae_cm": 0.49494020694677276
+    },
+    "new_candidate": {
+      "windows": 92215,
+      "mae_cm": 0.10286567477411641,
+      "mae_wet_cm": 0.8960357459834098,
+      "mae_nonwet_cm": 0.09384466791013564,
+      "balanced_mae_cm": 0.49494020694677276
+    }
+  },
+  "roundtrip": "PASS"
+}
